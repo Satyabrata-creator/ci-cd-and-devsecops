@@ -50,3 +50,14 @@ build/
 
 # === EC2 Deployment ===
 ec2-user-data.log
+
+
+AWS_REGION=us-east-1
+GITHUB_OWNER=satyabrata-mohapatra
+GITHUB_REPO=devsecops-pipeline
+GITHUB_BRANCH=main
+GITHUB_TOKEN=ghp_exampletokenhere1234567890
+
+ARTIFACT_BUCKET=devsecops-artifacts-satyabrata
+EC2_AMI=ami-0abcdef1234567890
+INSTANCE_TYPE=t2.micro
